@@ -66,6 +66,28 @@ function init() {
     )
     .polygonsTransitionDuration(200);
 
+  const Toast = Swal.mixin({
+    toast: true,
+    position: 'top-end',
+    showConfirmButton: false,
+    timer: 3000,
+    timerProgressBar: true,
+    didOpen: (toast) => {
+      toast.addEventListener('mouseenter', Swal.stopTimer)
+      toast.addEventListener('mouseleave', Swal.resumeTimer)
+    }
+  });
+
+  setInterval(async () => {
+    const resp = await fetch('http://192.168.31.30:3000/api/send-message/?lat=40.7128&long=74.0060');
+    const json = resp.json();
+    console.log(json);
+    Toast.fire({
+      icon: 'error',
+      title: 'New fire in La Paz'
+    });
+  }, 10000);
+
   getCases();
 }
 
@@ -104,7 +126,7 @@ async function getCases() {
 
   // world.polygonsData(countriesWithCovid);
   document.querySelector('.title-desc').innerHTML =
-    'Hover on a country or territory to see cases, deaths, and recoveries.';
+    'Hover on a country or territory to active fires.';
 
   dates = Object.keys(countries.China);
 
@@ -143,8 +165,8 @@ function updateCounters() {
   });
 
   infectedEl.innerHTML = numberWithCommas(totalConfirmed);
-  deathsEl.innerHTML = numberWithCommas(totalDeaths);
-  recoveriesEl.innerHTML = numberWithCommas(totalRecoveries);
+  // deathsEl.innerHTML = numberWithCommas(totalDeaths);
+  // recoveriesEl.innerHTML = numberWithCommas(totalRecoveries);
 
   updatedEl.innerHTML = `(as of ${formatDate(dates[slider.value])})`;
 }

@@ -13,15 +13,16 @@
       rel="stylesheet"
     />
     <meta property="og:image" content="https://i.imgur.com/1AFEXhs.png" />
-    <title>COVID-19 3D</title>
+    <title>Forest Ranger 3D</title>
     <link rel="stylesheet" href="/main.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </head>
   <body>
     <div id="globeViz"></div>
     <div class="top-info-container">
-      <div class="title">COVID-19</div>
+      <div class="title">FOREST RANGER</div>
       <div class="title-desc">
-        Loading countries affected by the virus...
+        Loading countries affected by fires...
       </div>
     </div>
 
@@ -49,12 +50,11 @@
         Total Counts <span class="updated"></span>
       </div>
       <div style="color: #e6f1ff; padding: 0 5px;">
-        INFECTED: <span id="infected">0</span> • DEATHS:
-        <span id="deaths">0</span> • RECOVERED: <span id="recovered">0</span>
+        ACTIVE FIRES: <span id="infected">0</span>
       </div>
       <div style="margin-top: 5px;">
         <a
-          href="https://github.com/sorxrob/covid-3d"
+          href="https://firms.modaps.eosdis.nasa.gov/map/"
           rel="noopener noreferrer"
           target="_BLANK"
           style="color: #ffffff; text-decoration: none;"
