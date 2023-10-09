@@ -10,3 +10,5 @@ export const CASES_API =
   'https://raw.githubusercontent.com/wobsoriano/covid3d/master/data.json';
 export const FIRES_API =
   'https://byteme-api.aquicasual.me/query';
+export const FIRES_API_JSON =
+  'https://raw.githubusercontent.com/raptor0929/fire-ranger/master/data_nasa_fires.json';
