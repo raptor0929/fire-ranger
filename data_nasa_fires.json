@@ -1,502 +1,189 @@
-[
-   {
-      "Country" : "Brazil",
-      "latitude" : "-20.35062",
-      "longitude" : "-57.10086"
-   },
-   {
-      "Country" : "Brazil",
-      "latitude" : "-20.35181",
-      "longitude" : "-57.09575"
-   },
-   {
-      "Country" : "Brazil",
-      "latitude" : "-22.04305",
-      "longitude" : "-49.11998"
-   },
-   {
-      "Country" : "Brazil",
-      "latitude" : "-22.04674",
-      "longitude" : "-49.12072"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-20.22665",
-      "longitude" : "-58.46463"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-20.22811",
-      "longitude" : "-58.45847"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-20.35232",
-      "longitude" : "-58.45068"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-20.35376",
-      "longitude" : "-58.44458"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-20.34887",
-      "longitude" : "-58.45195"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-20.35034",
-      "longitude" : "-58.44587"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-20.35181",
-      "longitude" : "-58.4398"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-20.36491",
-      "longitude" : "-58.44346"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-20.36344",
-      "longitude" : "-58.44955"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-20.36851",
-      "longitude" : "-58.45749"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-20.36999",
-      "longitude" : "-58.4514"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-20.36704",
-      "longitude" : "-58.46359"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-20.37146",
-      "longitude" : "-58.44531"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-20.37359",
-      "longitude" : "-58.46545"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-20.37063",
-      "longitude" : "-58.4777"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-20.37212",
-      "longitude" : "-58.47155"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-20.37506",
-      "longitude" : "-58.45935"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-20.37867",
-      "longitude" : "-58.47343"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-20.3757",
-      "longitude" : "-58.48573"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-20.37719",
-      "longitude" : "-58.47956"
-   },
-   {
-      "Country" : "Brazil",
-      "latitude" : "-22.53819",
-      "longitude" : "-48.8127"
-   },
-   {
-      "Country" : "Brazil",
-      "latitude" : "-21.07568",
-      "longitude" : "-56.26862"
-   },
-   {
-      "Country" : "Brazil",
-      "latitude" : "-21.08143",
-      "longitude" : "-56.27006"
-   },
-   {
-      "Country" : "Brazil",
-      "latitude" : "-22.51772",
-      "longitude" : "-49.57583"
-   },
-   {
-      "Country" : "Brazil",
-      "latitude" : "-22.5186",
-      "longitude" : "-49.57097"
-   },
-   {
-      "Country" : "Brazil",
-      "latitude" : "-22.52235",
-      "longitude" : "-49.57175"
-   },
-   {
-      "Country" : "Brazil",
-      "latitude" : "-21.66268",
-      "longitude" : "-54.54903"
-   },
-   {
-      "Country" : "Brazil",
-      "latitude" : "-21.6634",
-      "longitude" : "-54.54573"
-   },
-   {
-      "Country" : "Brazil",
-      "latitude" : "-22.63384",
-      "longitude" : "-50.38996"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-20.96275",
-      "longitude" : "-58.19127"
-   },
-   {
-      "Country" : "Brazil",
-      "latitude" : "-22.95791",
-      "longitude" : "-48.69728"
-   },
-   {
-      "Country" : "Brazil",
-      "latitude" : "-22.9587",
-      "longitude" : "-48.69286"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-20.96774",
-      "longitude" : "-58.19885"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-20.6947",
-      "longitude" : "-59.57203"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-20.7016",
-      "longitude" : "-59.57403"
-   },
-   {
-      "Country" : "Brazil",
-      "latitude" : "-23.59231",
-      "longitude" : "-47.43732"
-   },
-   {
-      "Country" : "Brazil",
-      "latitude" : "-23.33476",
-      "longitude" : "-51.90566"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-21.43086",
-      "longitude" : "-60.30199"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-21.42892",
-      "longitude" : "-60.30954"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-21.4379",
-      "longitude" : "-60.30412"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-21.43596",
-      "longitude" : "-60.31168"
-   },
-   {
-      "Country" : "Brazil",
-      "latitude" : "-23.98404",
-      "longitude" : "-48.91715"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-22.53843",
-      "longitude" : "-56.0808"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-22.5393",
-      "longitude" : "-56.077"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-22.1488",
-      "longitude" : "-57.84733"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-22.15005",
-      "longitude" : "-57.84215"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-22.15129",
-      "longitude" : "-57.83698"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-22.43413",
-      "longitude" : "-58.35385"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-22.43545",
-      "longitude" : "-58.34834"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-22.43677",
-      "longitude" : "-58.34283"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-22.43808",
-      "longitude" : "-58.33732"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-22.4394",
-      "longitude" : "-58.33181"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-22.4417",
-      "longitude" : "-58.35017"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-22.44301",
-      "longitude" : "-58.34467"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-22.44433",
-      "longitude" : "-58.33914"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-22.44826",
-      "longitude" : "-58.32266"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-22.43138",
-      "longitude" : "-58.34514"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-22.43003",
-      "longitude" : "-58.35064"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-22.43273",
-      "longitude" : "-58.33965"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-22.43628",
-      "longitude" : "-58.35244"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-22.43763",
-      "longitude" : "-58.34695"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-22.43898",
-      "longitude" : "-58.34145"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-22.44033",
-      "longitude" : "-58.33596"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-22.44168",
-      "longitude" : "-58.33046"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-22.45061",
-      "longitude" : "-58.3213"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-22.47026",
-      "longitude" : "-58.3504"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-22.47116",
-      "longitude" : "-58.37419"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-22.4725",
-      "longitude" : "-58.36869"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-22.47383",
-      "longitude" : "-58.36321"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-22.47517",
-      "longitude" : "-58.35772"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-22.47741",
-      "longitude" : "-58.37606"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-22.48275",
-      "longitude" : "-58.35408"
-   },
-   {
-      "Country" : "Brazil",
-      "latitude" : "-23.62389",
-      "longitude" : "-53.99641"
-   },
-   {
-      "Country" : "Brazil",
-      "latitude" : "-23.62508",
-      "longitude" : "-53.99076"
-   },
-   {
-      "Country" : "Brazil",
-      "latitude" : "-23.62865",
-      "longitude" : "-53.99764"
-   },
-   {
-      "Country" : "Brazil",
-      "latitude" : "-23.63341",
-      "longitude" : "-53.99886"
-   },
-   {
-      "Country" : "Brazil",
-      "latitude" : "-23.64293",
-      "longitude" : "-54.0013"
-   },
-   {
-      "Country" : "Brazil",
-      "latitude" : "-23.62387",
-      "longitude" : "-53.9916"
-   },
-   {
-      "Country" : "Brazil",
-      "latitude" : "-23.6251",
-      "longitude" : "-53.98597"
-   },
-   {
-      "Country" : "Brazil",
-      "latitude" : "-23.6274",
-      "longitude" : "-53.99846"
-   },
-   {
-      "Country" : "Brazil",
-      "latitude" : "-23.62863",
-      "longitude" : "-53.99281"
-   },
-   {
-      "Country" : "Brazil",
-      "latitude" : "-23.63338",
-      "longitude" : "-53.99403"
-   },
-   {
-      "Country" : "Brazil",
-      "latitude" : "-23.64168",
-      "longitude" : "-54.00208"
-   },
-   {
-      "Country" : "Brazil",
-      "latitude" : "-23.67619",
-      "longitude" : "-54.00497"
-   },
-   {
-      "Country" : "Brazil",
-      "latitude" : "-23.68215",
-      "longitude" : "-54.00055"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-24.1323",
-      "longitude" : "-56.313"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-24.1377",
-      "longitude" : "-56.31452"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-24.49221",
-      "longitude" : "-57.67466"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-24.49331",
-      "longitude" : "-57.67011"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-25.01042",
-      "longitude" : "-55.90171"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-25.29982",
-      "longitude" : "-55.68753"
-   },
-   {
-      "Country" : "Paraguay",
-      "latitude" : "-25.30058",
-      "longitude" : "-55.68416"
-   },
-   {
-      "Country" : "Argentina",
-      "latitude" : "-24.63781",
-      "longitude" : "-60.82904"
-   },
-   {
-      "Country" : "Argentina",
-      "latitude" : "-24.63964",
-      "longitude" : "-60.82207"
-   },
-   {
-      "Country" : "Argentina",
-      "latitude" : "-24.64147",
-      "longitude" : "-60.81506"
-   },
-   {
-      "Country" : "Argentina",
-      "latitude" : "-24.6464",
-      "longitude" : "-60.82431"
-   }
-]
+{
+    "Argentina": {
+        "10-07-2023": {
+            "confirmed": 510,
+            "deaths": 0,
+            "recoveries": 0
+        },
+        "10-08-2023": {
+            "confirmed": 639,
+            "deaths": 0,
+            "recoveries": 0
+        }
+    },
+    "Bolivia": {
+        "10-07-2023": {
+            "confirmed": 7022,
+            "deaths": 0,
+            "recoveries": 0
+        },
+        "10-08-2023": {
+            "confirmed": 1124,
+            "deaths": 0,
+            "recoveries": 0
+        }
+    },
+    "Brazil": {
+        "10-07-2023": {
+            "confirmed": 9435,
+            "deaths": 0,
+            "recoveries": 0
+        },
+        "10-08-2023": {
+            "confirmed": 10679,
+            "deaths": 0,
+            "recoveries": 0
+        }
+    },
+    "Chile": {
+        "10-07-2023": {
+            "confirmed": 33,
+            "deaths": 0,
+            "recoveries": 0
+        },
+        "10-08-2023": {
+            "confirmed": 40,
+            "deaths": 0,
+            "recoveries": 0
+        }
+    },
+    "Colombia": {
+        "10-07-2023": {
+            "confirmed": 185,
+            "deaths": 0,
+            "recoveries": 0
+        },
+        "10-08-2023": {
+            "confirmed": 160,
+            "deaths": 0,
+            "recoveries": 0
+        }
+    },
+    "Ecuador": {
+        "10-07-2023": {
+            "confirmed": 56,
+            "deaths": 0,
+            "recoveries": 0
+        },
+        "10-08-2023": {
+            "confirmed": 15,
+            "deaths": 0,
+            "recoveries": 0
+        }
+    },
+    "France": {
+        "10-07-2023": {
+            "confirmed": 48,
+            "deaths": 0,
+            "recoveries": 0
+        },
+        "10-08-2023": {
+            "confirmed": 44,
+            "deaths": 0,
+            "recoveries": 0
+        }
+    },
+    "Guyana": {
+        "10-07-2023": {
+            "confirmed": 95,
+            "deaths": 0,
+            "recoveries": 0
+        },
+        "10-08-2023": {
+            "confirmed": 171,
+            "deaths": 0,
+            "recoveries": 0
+        }
+    },
+    "Nicaragua": {
+        "10-07-2023": {
+            "confirmed": 2,
+            "deaths": 0,
+            "recoveries": 0
+        },
+        "10-08-2023": {
+            "confirmed": 1,
+            "deaths": 0,
+            "recoveries": 0
+        }
+    },
+    "Panama": {
+        "10-07-2023": {
+            "confirmed": 3,
+            "deaths": 0,
+            "recoveries": 0
+        }
+    },
+    "Paraguay": {
+        "10-07-2023": {
+            "confirmed": 458,
+            "deaths": 0,
+            "recoveries": 0
+        },
+        "10-08-2023": {
+            "confirmed": 101,
+            "deaths": 0,
+            "recoveries": 0
+        }
+    },
+    "Peru": {
+        "10-07-2023": {
+            "confirmed": 974,
+            "deaths": 0,
+            "recoveries": 0
+        },
+        "10-08-2023": {
+            "confirmed": 166,
+            "deaths": 0,
+            "recoveries": 0
+        }
+    },
+    "Suriname": {
+        "10-07-2023": {
+            "confirmed": 99,
+            "deaths": 0,
+            "recoveries": 0
+        },
+        "10-08-2023": {
+            "confirmed": 130,
+            "deaths": 0,
+            "recoveries": 0
+        }
+    },
+    "Trinidad and Tobago": {
+        "10-07-2023": {
+            "confirmed": 2,
+            "deaths": 0,
+            "recoveries": 0
+        },
+        "10-08-2023": {
+            "confirmed": 2,
+            "deaths": 0,
+            "recoveries": 0
+        }
+    },
+    "Uruguay": {
+        "10-07-2023": {
+            "confirmed": 7,
+            "deaths": 0,
+            "recoveries": 0
+        },
+        "10-08-2023": {
+            "confirmed": 11,
+            "deaths": 0,
+            "recoveries": 0
+        }
+    },
+    "Venezuela": {
+        "10-07-2023": {
+            "confirmed": 129,
+            "deaths": 0,
+            "recoveries": 0
+        },
+        "10-08-2023": {
+            "confirmed": 501,
+            "deaths": 0,
+            "recoveries": 0
+        }
+    }
+}
