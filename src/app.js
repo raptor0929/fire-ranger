@@ -6,6 +6,7 @@ import {
   GEOJSON_URL,
   // GEOJSON_URL2,
   CASES_API,
+  FIRES_API,
 } from './constants';
 import * as d3 from 'd3';
 
@@ -43,16 +44,12 @@ function init() {
 
       return `
         <div class="card">
-          <img class="card-img" src="${flagEndpoint}/${flagName}.png" alt="flag" />
           <div class="container">
              <span class="card-title"><b>${d.NAME}</b></span> <br />
              <div class="card-spacer"></div>
              <hr />
              <div class="card-spacer"></div>
-             <span>Cases: ${numberWithCommas(c.confirmed)}</span>  <br />
-             <span>Deaths: ${numberWithCommas(c.deaths)}</span> <br />
-             <span>Recovered: ${numberWithCommas(c.recoveries)}</span> <br />
-             <span>Population: ${d3.format('.3s')(d.POP_EST)}</span>
+             <span>Active fires: ${numberWithCommas(c.confirmed)}</span>  <br />
           </div>
         </div>
       `;
@@ -103,18 +100,19 @@ const slider = document.querySelector('.slider');
 // Slider date
 const sliderDate = document.querySelector('.slider-date');
 
-function polygonFromCenter(center, radius=0.5, num=10) {
+function polygonFromCenter(center, radius = 0.5, num = 10) {
   let coords = [];
   for (let i = 0; i < num; i++) {
-    const dx = radius*Math.cos(2*Math.PI*i/num);
-    const dy = radius*Math.sin(2*Math.PI*i/num);
+    const dx = radius * Math.cos(2 * Math.PI * i / num);
+    const dy = radius * Math.sin(2 * Math.PI * i / num);
     coords.push([center[0] + dx, center[1] + dy]);
   }
   return [coords];
 }
 
 async function getCases() {
-  countries = await request(CASES_API);
+  // countries = await request(CASES_API);
+  countries = await getFires();
   featureCollection = (await request(GEOJSON_URL)).features;
 
   // featureCollection2 = (await request(GEOJSON_URL2)).features.map(d => {
@@ -126,9 +124,10 @@ async function getCases() {
 
   // world.polygonsData(countriesWithCovid);
   document.querySelector('.title-desc').innerHTML =
-    'Hover on a country or territory to active fires.';
+    'Hover on a country to see the active fires.';
 
-  dates = Object.keys(countries.China);
+  // dates = Object.keys(countries.China);
+  dates = ["08/10/23"];
 
   // Set slider values
   slider.max = dates.length - 1;
@@ -141,6 +140,31 @@ async function getCases() {
   updatePolygonsData();
 
   updatePointOfView();
+}
+
+async function getFires() {
+  // const data = await request('http://49.12.201.225:9090/query');
+  const data = await request(FIRES_API);
+
+  // process fires response into desired format
+  const countries_set = new Set();
+  for (const row of data) {
+    countries_set.add(row.Country)
+  }
+
+  let fires = {}
+  for (const country of countries_set) {
+    const count = data.filter(row => country === row.Country).length
+    fires[country] = {
+      "08/10/23": {
+        "confirmed": count,
+        "deaths": 0,
+        "recoveries": 0,
+      }
+    };
+  }
+
+  return fires;
 }
 
 const infectedEl = document.querySelector('#infected');
@@ -244,7 +268,7 @@ playButton.addEventListener('click', () => {
 if ('oninput' in slider) {
   slider.addEventListener(
     'input',
-    function () {
+    function() {
       updateCounters();
       updatePolygonsData();
     },
