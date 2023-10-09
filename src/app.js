@@ -128,7 +128,8 @@ async function getCases() {
     'Hover on a country to see the active fires.';
 
   // dates = Object.keys(countries.China);
-  dates = ["08/10/23"];
+  // dates = ["08/10/23"];
+  dates = Object.keys(countries.Argentina);
 
   // Set slider values
   slider.max = dates.length - 1;
@@ -199,7 +200,8 @@ function updateCounters() {
 function updatePolygonsData() {
   for (let x = 0; x < featureCollection.length; x++) {
     const country = featureCollection[x].properties.NAME;
-    if (countries[country]) {
+
+    if (countries[country] && countries[country][dates[slider.value]]) {
       featureCollection[x].covidData = {
         confirmed: countries[country][dates[slider.value]].confirmed,
         deaths: countries[country][dates[slider.value]].deaths,
