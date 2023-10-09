@@ -7,6 +7,7 @@ import {
   // GEOJSON_URL2,
   CASES_API,
   FIRES_API,
+  FIRES_API_JSON
 } from './constants';
 import * as d3 from 'd3';
 
@@ -111,8 +112,8 @@ function polygonFromCenter(center, radius = 0.5, num = 10) {
 }
 
 async function getCases() {
-  // countries = await request(CASES_API);
-  countries = await getFires();
+  countries = await request(FIRES_API);
+
   featureCollection = (await request(GEOJSON_URL)).features;
 
   // featureCollection2 = (await request(GEOJSON_URL2)).features.map(d => {
